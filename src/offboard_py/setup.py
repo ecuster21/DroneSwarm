@@ -1,3 +1,5 @@
+from glob import glob
+
 from setuptools import find_packages, setup
 
 package_name = 'offboard_py'
@@ -10,6 +12,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name + '/launch', glob('launch/*.launch.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -24,7 +27,13 @@ setup(
     },
     entry_points={
         'console_scripts': [
-             'offboard_control = offboard_py.offboard_control:main',
+            'offboard_control = offboard_py.offboard_control:main',
+            'auction_agent = offboard_py.auction_agent:main',
+            'task_board = offboard_py.task_board:main',
+            'network_faults = offboard_py.network_faults:main',
+            'experiment_logger = offboard_py.experiment_logger:main',
+            'metrics_recorder = offboard_py.metrics_recorder:main',
+            'experiment_summarizer = offboard_py.experiment_summary:main',
         ],
     },
 )
