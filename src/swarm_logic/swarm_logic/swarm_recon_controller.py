@@ -159,6 +159,25 @@ class SwarmReconController(Node):
         self.reassign_on_prestart_failure = _coerce_bool(
             self.declare_parameter('reassign_on_prestart_failure', True).value
         )
+        self.spawn_layout = str(
+            self.declare_parameter('spawn_layout', 'grid').value
+        ).strip().lower()
+        self.spawn_origin_x_m = float(
+            self.declare_parameter('spawn_origin_x_m', 0.0).value
+        )
+        self.spawn_origin_y_m = float(
+            self.declare_parameter('spawn_origin_y_m', 0.0).value
+        )
+        self.spawn_spacing_x_m = float(
+            self.declare_parameter('spawn_spacing_x_m', 3.0).value
+        )
+        self.spawn_spacing_y_m = float(
+            self.declare_parameter('spawn_spacing_y_m', 3.0).value
+        )
+        self.spawn_grid_cols = max(
+            0,
+            int(self.declare_parameter('spawn_grid_cols', 0).value),
+        )
         self.spawn_x_m = float(self.declare_parameter('spawn_x_m', 0.0).value)
         self.spawn_y_base_m = float(
             self.declare_parameter('spawn_y_base_m', 0.0).value
@@ -187,6 +206,7 @@ class SwarmReconController(Node):
             namespace = f'{self.namespace_prefix}{instance_id}'
             system_id = instance_id + self.system_id_offset
             group_id = index // self.group_size
+            spawn_x, spawn_y = self._compute_spawn_position(index, instance_id)
             context = VehicleContext(
                 namespace=namespace,
                 instance_id=instance_id,
@@ -194,8 +214,8 @@ class SwarmReconController(Node):
                 group_id=group_id,
                 lane_index=index % self.group_size,
                 phase=self.phase,
-                spawn_x=self.spawn_x_m,
-                spawn_y=self.spawn_y_base_m + self.spawn_y_step_m * instance_id,
+                spawn_x=spawn_x,
+                spawn_y=spawn_y,
             )
             context.publisher = self.create_publisher(
                 Pose2D,
@@ -259,6 +279,31 @@ class SwarmReconController(Node):
 
     def _update_ready_state(self, context: VehicleContext):
         context.ready = context.seen_status and context.seen_local_position
+
+    def _resolved_spawn_grid_cols(self) -> int:
+        if self.spawn_grid_cols > 0:
+            return self.spawn_grid_cols
+
+        return max(1, math.ceil(math.sqrt(self.num_drones)))
+
+    def _compute_spawn_position(
+        self,
+        index: int,
+        instance_id: int,
+    ) -> tuple[float, float]:
+        if self.spawn_layout == 'line':
+            return (
+                self.spawn_x_m,
+                self.spawn_y_base_m + self.spawn_y_step_m * instance_id,
+            )
+
+        grid_cols = self._resolved_spawn_grid_cols()
+        row_index = index // grid_cols
+        col_index = index % grid_cols
+        return (
+            self.spawn_origin_x_m + self.spawn_spacing_x_m * col_index,
+            self.spawn_origin_y_m + self.spawn_spacing_y_m * row_index,
+        )
 
     def _vehicle_status_callback(self, namespace: str, msg: VehicleStatus):
         context = self.vehicle_contexts[namespace]

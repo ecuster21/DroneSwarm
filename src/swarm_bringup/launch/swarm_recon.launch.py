@@ -73,6 +73,16 @@ def _build_nodes(context):
                     'startup_wait_timeout_sec': LaunchConfiguration(
                         'startup_wait_timeout_sec'
                     ),
+                    'spawn_layout': LaunchConfiguration('spawn_layout'),
+                    'spawn_origin_x_m': LaunchConfiguration('spawn_origin_x_m'),
+                    'spawn_origin_y_m': LaunchConfiguration('spawn_origin_y_m'),
+                    'spawn_spacing_x_m': LaunchConfiguration(
+                        'spawn_spacing_x_m'
+                    ),
+                    'spawn_spacing_y_m': LaunchConfiguration(
+                        'spawn_spacing_y_m'
+                    ),
+                    'spawn_grid_cols': LaunchConfiguration('spawn_grid_cols'),
                     'spawn_x_m': LaunchConfiguration('spawn_x_m'),
                     'spawn_y_base_m': LaunchConfiguration('spawn_y_base_m'),
                     'spawn_y_step_m': LaunchConfiguration('spawn_y_step_m'),
@@ -108,6 +118,12 @@ def generate_launch_description():
             DeclareLaunchArgument('takeoff_acceptance_m', default_value='1.0'),
             DeclareLaunchArgument('command_timeout_sec', default_value='5.0'),
             DeclareLaunchArgument('startup_wait_timeout_sec', default_value='15.0'),
+            DeclareLaunchArgument('spawn_layout', default_value='grid'),
+            DeclareLaunchArgument('spawn_origin_x_m', default_value='0.0'),
+            DeclareLaunchArgument('spawn_origin_y_m', default_value='0.0'),
+            DeclareLaunchArgument('spawn_spacing_x_m', default_value='3.0'),
+            DeclareLaunchArgument('spawn_spacing_y_m', default_value='3.0'),
+            DeclareLaunchArgument('spawn_grid_cols', default_value='0'),
             DeclareLaunchArgument('spawn_x_m', default_value='0.0'),
             DeclareLaunchArgument('spawn_y_base_m', default_value='0.0'),
             DeclareLaunchArgument('spawn_y_step_m', default_value='3.0'),
