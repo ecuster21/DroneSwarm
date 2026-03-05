@@ -1,0 +1,3 @@
+[INFO] [1772633045.456327897] [px4_2.auction_agent]: Starting auction agent px4_2 in namespace "/px4_2" with peers=['px4_1', 'px4_2', 'px4_3', 'px4_4']
+[WARN] [1772633045.640347335] [px4_2.auction_agent]: Waiting for PX4 local position on fmu/out/vehicle_local_position
+[INFO] [1772633045.858826104] [px4_2.auction_agent]: Received first PX4 local position sample

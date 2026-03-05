@@ -1,0 +1,5 @@
+profile_name,uav_count,drop_probability,delay_mean_ms,delay_jitter_ms,total_events,allocation_events,bid_events,local_state_events,total_task_switches,runtime_sec,stabilization_sec
+baseline,4,0.0,0.0,0.0,3570,1190,1190,1190,0,61.230193,0.80776
+delay,4,0.0,200.0,50.0,3549,1184,1181,1184,3,61.226264,1.400154
+loss,4,0.2,0.0,0.0,3284,1182,920,1182,0,59.827779,1.827905
+stress,4,0.2,200.0,50.0,3294,1194,906,1194,2,61.273497,1.073516

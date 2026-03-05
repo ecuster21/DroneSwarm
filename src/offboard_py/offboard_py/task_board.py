@@ -13,29 +13,8 @@ from std_msgs.msg import String
 
 from offboard_py.auction_core import Task
 from offboard_py.auction_core import task_list_to_json
-
-
-def _default_tasks() -> List[Task]:
-    """Provide a deterministic task layout for SITL bring-up."""
-    return [
-        Task(task_id='task_1', x=5.0, y=0.0, reward=10.0, radius_m=1.0, priority=1.0),
-        Task(task_id='task_2', x=0.0, y=5.0, reward=8.0, radius_m=1.0, priority=1.0),
-        Task(task_id='task_3', x=-5.0, y=0.0, reward=12.0, radius_m=1.0, priority=1.2),
-        Task(task_id='task_4', x=0.0, y=-5.0, reward=9.0, radius_m=1.0, priority=1.0),
-    ]
-
-
-def _parse_tasks(payload: str) -> List[Task]:
-    """Parse a JSON list of tasks, falling back to defaults on empty input."""
-    if not payload.strip():
-        return _default_tasks()
-
-    data = json.loads(payload)
-    if not isinstance(data, list):
-        raise ValueError('tasks_json must describe a JSON array.')
-
-    tasks = [Task.from_dict(item) for item in data if isinstance(item, dict)]
-    return tasks or _default_tasks()
+from offboard_py.task_catalog import default_tasks
+from offboard_py.task_catalog import parse_tasks
 
 
 class TaskBoard(Node):
@@ -54,13 +33,16 @@ class TaskBoard(Node):
         )
 
         try:
-            self.base_tasks = _parse_tasks(tasks_json)
+            self.base_tasks = parse_tasks(tasks_json, use_defaults_when_empty=True)
         except (TypeError, ValueError, json.JSONDecodeError) as exc:
             self.get_logger().warning(f'Invalid tasks_json, using defaults: {exc}')
-            self.base_tasks = _default_tasks()
+            self.base_tasks = default_tasks()
 
         try:
-            self.popup_tasks = _parse_tasks(popup_tasks_json) if popup_tasks_json.strip() else []
+            self.popup_tasks = parse_tasks(
+                popup_tasks_json,
+                use_defaults_when_empty=False,
+            )
         except (TypeError, ValueError, json.JSONDecodeError) as exc:
             self.get_logger().warning(f'Invalid popup_tasks_json, ignoring: {exc}')
             self.popup_tasks = []

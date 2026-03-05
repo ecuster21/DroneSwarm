@@ -1,0 +1,28 @@
+1772632997.9031589 [INFO] [launch]: All log files can be found below experiment_results/batch_20260304T140317Z/baseline/ros_logs/2026-03-04-22-03-17-902278-DESKTOP-562LG77-23165
+1772632997.9032974 [INFO] [launch]: Default logging verbosity is set to INFO
+1772632997.9640372 [INFO] [task_board-1]: process started with pid [23166]
+1772632997.9642811 [INFO] [offboard_control-2]: process started with pid [23168]
+1772632997.9643860 [INFO] [auction_agent-3]: process started with pid [23170]
+1772632997.9644871 [INFO] [metrics_recorder-4]: process started with pid [23172]
+1772632997.9646080 [INFO] [offboard_control-5]: process started with pid [23174]
+1772632997.9647243 [INFO] [auction_agent-6]: process started with pid [23176]
+1772632997.9648328 [INFO] [metrics_recorder-7]: process started with pid [23178]
+1772632997.9648910 [INFO] [offboard_control-8]: process started with pid [23180]
+1772632997.9649396 [INFO] [auction_agent-9]: process started with pid [23182]
+1772632997.9649837 [INFO] [metrics_recorder-10]: process started with pid [23184]
+1772632997.9650307 [INFO] [offboard_control-11]: process started with pid [23186]
+1772632997.9650738 [INFO] [auction_agent-12]: process started with pid [23188]
+1772632997.9652319 [INFO] [metrics_recorder-13]: process started with pid [23190]
+1772632998.3675859 [ERROR] [metrics_recorder-10]: process has died [pid 23184, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/metrics_recorder --ros-args -r __node:=metrics_recorder -r __ns:=/px4_3 --params-file /tmp/launch_params_kdanlm6b'].
+1772632998.4920478 [ERROR] [metrics_recorder-4]: process has died [pid 23172, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/metrics_recorder --ros-args -r __node:=metrics_recorder -r __ns:=/px4_1 --params-file /tmp/launch_params_qm5fm7q4'].
+1772632998.4922559 [ERROR] [task_board-1]: process has died [pid 23166, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/task_board --ros-args -r __node:=task_board --params-file /tmp/launch_params_aq0c7x2n'].
+1772632998.4923093 [ERROR] [metrics_recorder-7]: process has died [pid 23178, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/metrics_recorder --ros-args -r __node:=metrics_recorder -r __ns:=/px4_2 --params-file /tmp/launch_params_w_66bd1y'].
+1772632998.4924529 [ERROR] [metrics_recorder-13]: process has died [pid 23190, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/metrics_recorder --ros-args -r __node:=metrics_recorder -r __ns:=/px4_4 --params-file /tmp/launch_params_ptsk29wp'].
+1772632998.4925218 [ERROR] [offboard_control-8]: process has died [pid 23180, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/offboard_control --ros-args -r __node:=offboard_control -r __ns:=/px4_3'].
+1772632998.4944985 [ERROR] [offboard_control-5]: process has died [pid 23174, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/offboard_control --ros-args -r __node:=offboard_control -r __ns:=/px4_2'].
+1772632998.4978831 [ERROR] [offboard_control-2]: process has died [pid 23168, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/offboard_control --ros-args -r __node:=offboard_control -r __ns:=/px4_1'].
+1772632998.4983475 [ERROR] [offboard_control-11]: process has died [pid 23186, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/offboard_control --ros-args -r __node:=offboard_control -r __ns:=/px4_4'].
+1772632998.5009413 [ERROR] [auction_agent-9]: process has died [pid 23182, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/auction_agent --ros-args -r __node:=auction_agent -r __ns:=/px4_3 --params-file /tmp/launch_params_2k2gihvm'].
+1772632998.5012984 [ERROR] [auction_agent-12]: process has died [pid 23188, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/auction_agent --ros-args -r __node:=auction_agent -r __ns:=/px4_4 --params-file /tmp/launch_params_v91sc4zq'].
+1772632998.5014434 [ERROR] [auction_agent-3]: process has died [pid 23170, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/auction_agent --ros-args -r __node:=auction_agent -r __ns:=/px4_1 --params-file /tmp/launch_params_3zkhnft9'].
+1772632998.5017393 [ERROR] [auction_agent-6]: process has died [pid 23176, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/auction_agent --ros-args -r __node:=auction_agent -r __ns:=/px4_2 --params-file /tmp/launch_params_9u_hf75h'].

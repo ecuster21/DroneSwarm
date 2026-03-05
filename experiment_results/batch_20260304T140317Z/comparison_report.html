@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Experiment Comparison Report</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; color: #222; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 24px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background: #f3f6fa; }
+    h2 { margin-top: 28px; }
+    .chart { margin-bottom: 24px; }
+  </style>
+</head>
+<body>
+  <h1>Experiment Comparison Report</h1>
+  <table>
+    <thead><tr><th>profile_name</th><th>uav_count</th><th>drop_probability</th><th>delay_mean_ms</th><th>delay_jitter_ms</th><th>total_events</th><th>allocation_events</th><th>bid_events</th><th>local_state_events</th><th>total_task_switches</th><th>runtime_sec</th><th>stabilization_sec</th></tr></thead>
+    <tbody><tr><td>baseline</td><td>4</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0.0</td><td>0.0</td></tr><tr><td>delay</td><td>4</td><td>0.0</td><td>200.0</td><td>50.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0.0</td><td>0.0</td></tr><tr><td>loss</td><td>4</td><td>0.2</td><td>0.0</td><td>0.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0.0</td><td>0.0</td></tr><tr><td>stress</td><td>4</td><td>0.2</td><td>200.0</td><td>50.0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0.0</td><td>0.0</td></tr></tbody>
+  </table>
+  <h2>Total Events</h2>
+  <div class="chart"><svg width="520" height="164" viewBox="0 0 520 164" xmlns="http://www.w3.org/2000/svg"><text x="0" y="27" font-size="12" fill="#222">baseline</text><rect x="110" y="10" width="0" height="24" fill="#2f7ed8" rx="4" ry="4"></rect><text x="120" y="27" font-size="12" fill="#222">0.00</text><text x="0" y="63" font-size="12" fill="#222">delay</text><rect x="110" y="46" width="0" height="24" fill="#2f7ed8" rx="4" ry="4"></rect><text x="120" y="63" font-size="12" fill="#222">0.00</text><text x="0" y="99" font-size="12" fill="#222">loss</text><rect x="110" y="82" width="0" height="24" fill="#2f7ed8" rx="4" ry="4"></rect><text x="120" y="99" font-size="12" fill="#222">0.00</text><text x="0" y="135" font-size="12" fill="#222">stress</text><rect x="110" y="118" width="0" height="24" fill="#2f7ed8" rx="4" ry="4"></rect><text x="120" y="135" font-size="12" fill="#222">0.00</text></svg></div>
+  <h2>Total Task Switches</h2>
+  <div class="chart"><svg width="520" height="164" viewBox="0 0 520 164" xmlns="http://www.w3.org/2000/svg"><text x="0" y="27" font-size="12" fill="#222">baseline</text><rect x="110" y="10" width="0" height="24" fill="#2f7ed8" rx="4" ry="4"></rect><text x="120" y="27" font-size="12" fill="#222">0.00</text><text x="0" y="63" font-size="12" fill="#222">delay</text><rect x="110" y="46" width="0" height="24" fill="#2f7ed8" rx="4" ry="4"></rect><text x="120" y="63" font-size="12" fill="#222">0.00</text><text x="0" y="99" font-size="12" fill="#222">loss</text><rect x="110" y="82" width="0" height="24" fill="#2f7ed8" rx="4" ry="4"></rect><text x="120" y="99" font-size="12" fill="#222">0.00</text><text x="0" y="135" font-size="12" fill="#222">stress</text><rect x="110" y="118" width="0" height="24" fill="#2f7ed8" rx="4" ry="4"></rect><text x="120" y="135" font-size="12" fill="#222">0.00</text></svg></div>
+  <h2>Stabilization Time (s)</h2>
+  <div class="chart"><svg width="520" height="164" viewBox="0 0 520 164" xmlns="http://www.w3.org/2000/svg"><text x="0" y="27" font-size="12" fill="#222">baseline</text><rect x="110" y="10" width="0" height="24" fill="#2f7ed8" rx="4" ry="4"></rect><text x="120" y="27" font-size="12" fill="#222">0.00</text><text x="0" y="63" font-size="12" fill="#222">delay</text><rect x="110" y="46" width="0" height="24" fill="#2f7ed8" rx="4" ry="4"></rect><text x="120" y="63" font-size="12" fill="#222">0.00</text><text x="0" y="99" font-size="12" fill="#222">loss</text><rect x="110" y="82" width="0" height="24" fill="#2f7ed8" rx="4" ry="4"></rect><text x="120" y="99" font-size="12" fill="#222">0.00</text><text x="0" y="135" font-size="12" fill="#222">stress</text><rect x="110" y="118" width="0" height="24" fill="#2f7ed8" rx="4" ry="4"></rect><text x="120" y="135" font-size="12" fill="#222">0.00</text></svg></div>
+</body>
+</html>

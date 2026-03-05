@@ -1,0 +1,2 @@
+[INFO] [1772633170.307860344] [px4_4.auction_agent]: Starting auction agent px4_4 in namespace "/px4_4" with peers=['px4_1', 'px4_2', 'px4_3', 'px4_4']
+[INFO] [1772633170.308594698] [px4_4.auction_agent]: Received first PX4 local position sample

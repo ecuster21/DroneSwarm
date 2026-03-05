@@ -82,7 +82,6 @@ def main(args=None) -> None:
     """Run the experiment metadata logger."""
     rclpy.init(args=args)
     node = ExperimentLogger()
-    rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
 

@@ -1,0 +1,13 @@
+{
+  "figures": [
+    "experiment_results/paper_assets/figure_total_events.svg",
+    "experiment_results/paper_assets/figure_bid_events.svg",
+    "experiment_results/paper_assets/figure_stabilization.svg",
+    "experiment_results/paper_assets/figure_task_switches.svg"
+  ],
+  "figures_html": "experiment_results/paper_assets/paper_figures.html",
+  "latex_table": "experiment_results/paper_assets/paper_results_table.tex",
+  "markdown_table": "experiment_results/paper_assets/paper_results_table.md",
+  "study_csv_path": "experiment_results/study_comparison.csv",
+  "summary": "experiment_results/paper_assets/paper_results_summary.md"
+}

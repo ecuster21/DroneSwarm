@@ -1,0 +1,43 @@
+{
+  "first_event_utc": "2026-03-04T14:27:29.545594Z",
+  "last_event_utc": "2026-03-04T14:28:31.161976Z",
+  "manifest_path": "experiment_results/batch_20260304T142728Z/baseline/baseline_2026-03-04T14-27-28-737807Z.json",
+  "metric_file_count": 4,
+  "metric_files": [
+    "experiment_results/batch_20260304T142728Z/baseline/px4_1/baseline_px4_1_2026-03-04T14-27-29-224760Z.jsonl",
+    "experiment_results/batch_20260304T142728Z/baseline/px4_2/baseline_px4_2_2026-03-04T14-27-29-212993Z.jsonl",
+    "experiment_results/batch_20260304T142728Z/baseline/px4_3/baseline_px4_3_2026-03-04T14-27-29-224602Z.jsonl",
+    "experiment_results/batch_20260304T142728Z/baseline/px4_4/baseline_px4_4_2026-03-04T14-27-29-227915Z.jsonl"
+  ],
+  "namespace_count": 4,
+  "parameters": {
+    "alpha_switch": 0.75,
+    "beta_stale": 1.0,
+    "delay_jitter_ms": 0.0,
+    "delay_mean_ms": 0.0,
+    "drop_probability": 0.0,
+    "lambda_cost": 1.0,
+    "uav_count": 4,
+    "update_period_sec": 0.2,
+    "use_fault_injection": false
+  },
+  "per_namespace_events": {
+    "px4_1": 897,
+    "px4_2": 870,
+    "px4_3": 897,
+    "px4_4": 897
+  },
+  "per_namespace_switches": {},
+  "profile_name": "baseline",
+  "recorded_at_utc": "2026-03-04T14:27:28.737807Z",
+  "run_label": "",
+  "runtime_sec": 61.616382,
+  "stabilization_sec": 0.800082,
+  "topic_counts": {
+    "auction/allocation": 1187,
+    "auction/bid": 1187,
+    "auction/local_state": 1187
+  },
+  "total_events": 3561,
+  "total_task_switches": 0
+}

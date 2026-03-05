@@ -23,6 +23,7 @@ def test_auction_sitl_launch_arguments_match_expected_surface():
 
     assert declared_arguments == [
         'uav_count',
+        'namespace_prefix',
         'update_period_sec',
         'use_fault_injection',
         'drop_probability',

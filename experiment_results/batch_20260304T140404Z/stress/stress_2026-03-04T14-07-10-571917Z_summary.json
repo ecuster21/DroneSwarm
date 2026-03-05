@@ -1,0 +1,46 @@
+{
+  "first_event_utc": "2026-03-04T14:07:11.342615Z",
+  "last_event_utc": "2026-03-04T14:08:12.616112Z",
+  "manifest_path": "experiment_results/batch_20260304T140404Z/stress/stress_2026-03-04T14-07-10-571917Z.json",
+  "metric_file_count": 4,
+  "metric_files": [
+    "experiment_results/batch_20260304T140404Z/stress/px4_1/stress_px4_1_2026-03-04T14-07-11-024564Z.jsonl",
+    "experiment_results/batch_20260304T140404Z/stress/px4_2/stress_px4_2_2026-03-04T14-07-11-025010Z.jsonl",
+    "experiment_results/batch_20260304T140404Z/stress/px4_3/stress_px4_3_2026-03-04T14-07-11-027224Z.jsonl",
+    "experiment_results/batch_20260304T140404Z/stress/px4_4/stress_px4_4_2026-03-04T14-07-11-033489Z.jsonl"
+  ],
+  "namespace_count": 4,
+  "parameters": {
+    "alpha_switch": 0.75,
+    "beta_stale": 1.0,
+    "delay_jitter_ms": 50.0,
+    "delay_mean_ms": 200.0,
+    "drop_probability": 0.2,
+    "lambda_cost": 1.0,
+    "uav_count": 4,
+    "update_period_sec": 0.2,
+    "use_fault_injection": true
+  },
+  "per_namespace_events": {
+    "px4_1": 825,
+    "px4_2": 822,
+    "px4_3": 822,
+    "px4_4": 825
+  },
+  "per_namespace_switches": {
+    "px4_2": 1,
+    "px4_4": 1
+  },
+  "profile_name": "stress",
+  "recorded_at_utc": "2026-03-04T14:07:10.571917Z",
+  "run_label": "",
+  "runtime_sec": 61.273497,
+  "stabilization_sec": 1.073516,
+  "topic_counts": {
+    "auction/allocation": 1194,
+    "auction/bid": 906,
+    "auction/local_state": 1194
+  },
+  "total_events": 3294,
+  "total_task_switches": 2
+}

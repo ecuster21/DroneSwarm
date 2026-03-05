@@ -1,0 +1,46 @@
+{
+  "first_event_utc": "2026-03-04T14:29:33.531449Z",
+  "last_event_utc": "2026-03-04T14:30:34.744325Z",
+  "manifest_path": "experiment_results/batch_20260304T142728Z/loss/loss_2026-03-04T14-29-32-723279Z.json",
+  "metric_file_count": 4,
+  "metric_files": [
+    "experiment_results/batch_20260304T142728Z/loss/px4_1/loss_px4_1_2026-03-04T14-29-33-199222Z.jsonl",
+    "experiment_results/batch_20260304T142728Z/loss/px4_2/loss_px4_2_2026-03-04T14-29-33-204352Z.jsonl",
+    "experiment_results/batch_20260304T142728Z/loss/px4_3/loss_px4_3_2026-03-04T14-29-33-219306Z.jsonl",
+    "experiment_results/batch_20260304T142728Z/loss/px4_4/loss_px4_4_2026-03-04T14-29-33-225158Z.jsonl"
+  ],
+  "namespace_count": 4,
+  "parameters": {
+    "alpha_switch": 0.75,
+    "beta_stale": 1.0,
+    "delay_jitter_ms": 0.0,
+    "delay_mean_ms": 0.0,
+    "drop_probability": 0.2,
+    "lambda_cost": 1.0,
+    "uav_count": 4,
+    "update_period_sec": 0.2,
+    "use_fault_injection": true
+  },
+  "per_namespace_events": {
+    "px4_1": 831,
+    "px4_2": 831,
+    "px4_3": 831,
+    "px4_4": 831
+  },
+  "per_namespace_switches": {
+    "px4_2": 1,
+    "px4_4": 1
+  },
+  "profile_name": "loss",
+  "recorded_at_utc": "2026-03-04T14:29:32.723279Z",
+  "run_label": "",
+  "runtime_sec": 61.212876,
+  "stabilization_sec": 1.211405,
+  "topic_counts": {
+    "auction/allocation": 1196,
+    "auction/bid": 932,
+    "auction/local_state": 1196
+  },
+  "total_events": 3324,
+  "total_task_switches": 2
+}

@@ -1,0 +1,45 @@
+{
+  "first_event_utc": "2026-03-04T14:28:32.552106Z",
+  "last_event_utc": "2026-03-04T14:29:32.555447Z",
+  "manifest_path": "experiment_results/batch_20260304T142728Z/delay/delay_2026-03-04T14-28-31-364941Z.json",
+  "metric_file_count": 4,
+  "metric_files": [
+    "experiment_results/batch_20260304T142728Z/delay/px4_1/delay_px4_1_2026-03-04T14-28-32-215701Z.jsonl",
+    "experiment_results/batch_20260304T142728Z/delay/px4_2/delay_px4_2_2026-03-04T14-28-32-262113Z.jsonl",
+    "experiment_results/batch_20260304T142728Z/delay/px4_3/delay_px4_3_2026-03-04T14-28-32-285388Z.jsonl",
+    "experiment_results/batch_20260304T142728Z/delay/px4_4/delay_px4_4_2026-03-04T14-28-32-286135Z.jsonl"
+  ],
+  "namespace_count": 4,
+  "parameters": {
+    "alpha_switch": 0.75,
+    "beta_stale": 1.0,
+    "delay_jitter_ms": 50.0,
+    "delay_mean_ms": 200.0,
+    "drop_probability": 0.0,
+    "lambda_cost": 1.0,
+    "uav_count": 4,
+    "update_period_sec": 0.2,
+    "use_fault_injection": true
+  },
+  "per_namespace_events": {
+    "px4_1": 890,
+    "px4_2": 890,
+    "px4_3": 878,
+    "px4_4": 887
+  },
+  "per_namespace_switches": {
+    "px4_2": 1
+  },
+  "profile_name": "delay",
+  "recorded_at_utc": "2026-03-04T14:28:31.364941Z",
+  "run_label": "",
+  "runtime_sec": 60.003341,
+  "stabilization_sec": 0.814135,
+  "topic_counts": {
+    "auction/allocation": 1183,
+    "auction/bid": 1179,
+    "auction/local_state": 1183
+  },
+  "total_events": 3545,
+  "total_task_switches": 1
+}

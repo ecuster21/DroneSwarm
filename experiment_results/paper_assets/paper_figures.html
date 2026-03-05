@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Paper Figures</title>
+  <style>
+    body { margin: 24px; background: #f8fafc; color: #0f172a; }
+    h1, h2 { font-family: Georgia, serif; }
+    p, td, th { font-family: Arial, sans-serif; }
+    .panel {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 14px;
+      padding: 18px;
+      margin-bottom: 20px;
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+    }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #e2e8f0; padding: 10px; text-align: left; }
+    th { background: #f8fafc; }
+    img { width: 100%; height: auto; display: block; }
+    .figure { margin-bottom: 16px; }
+  </style>
+</head>
+<body>
+  <div class="panel">
+    <h1>Paper-Ready Results</h1>
+    <p>Compact repeated-trial summary table and standalone figures for direct screenshotting.</p>
+  </div>
+  <div class="panel">
+    <h2>Compact Result Table</h2>
+    <table>
+      <thead><tr><th>Scenario</th><th>Trials</th><th>Total Events</th><th>Bid Events</th><th>Task Switches</th><th>Stabilization (s)</th></tr></thead>
+      <tbody><tr><td>Baseline</td><td>3</td><td>3570.00 +/- 9.00</td><td>1190.00 +/- 3.00</td><td>0.00 +/- 0.00</td><td>0.805 +/- 0.005</td></tr><tr><td>Delay</td><td>3</td><td>3556.33 +/- 16.29</td><td>1183.00 +/- 5.29</td><td>1.67 +/- 1.15</td><td>1.072 +/- 0.299</td></tr><tr><td>Loss</td><td>3</td><td>3298.33 +/- 22.28</td><td>925.00 +/- 6.24</td><td>0.67 +/- 1.15</td><td>1.348 +/- 0.428</td></tr><tr><td>Stress</td><td>3</td><td>3284.00 +/- 22.72</td><td>902.67 +/- 7.57</td><td>1.33 +/- 1.15</td><td>0.905 +/- 0.251</td></tr></tbody>
+    </table>
+  </div>
+  <div class="panel">
+    <h2>Figures</h2>
+    <section class="figure"><img src="figure_total_events.svg" alt="figure_total_events"></section><section class="figure"><img src="figure_bid_events.svg" alt="figure_bid_events"></section><section class="figure"><img src="figure_stabilization.svg" alt="figure_stabilization"></section><section class="figure"><img src="figure_task_switches.svg" alt="figure_task_switches"></section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+1772633182.0973222 [INFO] [launch]: All log files can be found below experiment_results/batch_20260304T140317Z/stress/ros_logs/2026-03-04-22-06-22-096500-DESKTOP-562LG77-26519
+1772633182.0974462 [INFO] [launch]: Default logging verbosity is set to INFO
+1772633182.1550798 [INFO] [task_board-1]: process started with pid [26520]
+1772633182.1552763 [INFO] [offboard_control-2]: process started with pid [26522]
+1772633182.1553440 [INFO] [auction_agent-3]: process started with pid [26524]
+1772633182.1553843 [INFO] [network_faults-4]: process started with pid [26526]
+1772633182.1554177 [INFO] [metrics_recorder-5]: process started with pid [26528]
+1772633182.1554508 [INFO] [offboard_control-6]: process started with pid [26530]
+1772633182.1554799 [INFO] [auction_agent-7]: process started with pid [26532]
+1772633182.1555092 [INFO] [network_faults-8]: process started with pid [26534]
+1772633182.1555376 [INFO] [metrics_recorder-9]: process started with pid [26536]
+1772633182.1555667 [INFO] [offboard_control-10]: process started with pid [26538]
+1772633182.1555972 [INFO] [auction_agent-11]: process started with pid [26540]
+1772633182.1556263 [INFO] [network_faults-12]: process started with pid [26542]
+1772633182.1556513 [INFO] [metrics_recorder-13]: process started with pid [26544]
+1772633182.1556776 [INFO] [offboard_control-14]: process started with pid [26546]
+1772633182.1557028 [INFO] [auction_agent-15]: process started with pid [26548]
+1772633182.1557269 [INFO] [network_faults-16]: process started with pid [26550]
+1772633182.1557491 [INFO] [metrics_recorder-17]: process started with pid [26552]
+1772633182.5603149 [ERROR] [network_faults-4]: process has died [pid 26526, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/network_faults --ros-args -r __node:=network_faults -r __ns:=/px4_1 --params-file /tmp/launch_params_e20qenes'].
+1772633182.5802627 [ERROR] [metrics_recorder-5]: process has died [pid 26528, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/metrics_recorder --ros-args -r __node:=metrics_recorder -r __ns:=/px4_1 --params-file /tmp/launch_params_pd1b5_kz'].
+1772633182.5910828 [ERROR] [task_board-1]: process has died [pid 26520, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/task_board --ros-args -r __node:=task_board --params-file /tmp/launch_params_48pcu90c'].
+1772633182.5913014 [ERROR] [metrics_recorder-13]: process has died [pid 26544, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/metrics_recorder --ros-args -r __node:=metrics_recorder -r __ns:=/px4_3 --params-file /tmp/launch_params_b79yb78c'].
+1772633182.5916662 [ERROR] [metrics_recorder-9]: process has died [pid 26536, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/metrics_recorder --ros-args -r __node:=metrics_recorder -r __ns:=/px4_2 --params-file /tmp/launch_params_q1dnpp9p'].
+1772633182.5920219 [ERROR] [network_faults-12]: process has died [pid 26542, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/network_faults --ros-args -r __node:=network_faults -r __ns:=/px4_3 --params-file /tmp/launch_params_mkthbc10'].
+1772633182.5947571 [ERROR] [metrics_recorder-17]: process has died [pid 26552, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/metrics_recorder --ros-args -r __node:=metrics_recorder -r __ns:=/px4_4 --params-file /tmp/launch_params_dxz9gtqc'].
+1772633182.5953987 [ERROR] [network_faults-16]: process has died [pid 26550, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/network_faults --ros-args -r __node:=network_faults -r __ns:=/px4_4 --params-file /tmp/launch_params_uqidg893'].
+1772633182.6025364 [ERROR] [network_faults-8]: process has died [pid 26534, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/network_faults --ros-args -r __node:=network_faults -r __ns:=/px4_2 --params-file /tmp/launch_params_9qhli9yl'].
+1772633182.7133722 [ERROR] [offboard_control-2]: process has died [pid 26522, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/offboard_control --ros-args -r __node:=offboard_control -r __ns:=/px4_1'].
+1772633182.7169740 [ERROR] [auction_agent-11]: process has died [pid 26540, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/auction_agent --ros-args -r __node:=auction_agent -r __ns:=/px4_3 --params-file /tmp/launch_params_be0jrb2k'].
+1772633182.7173519 [ERROR] [offboard_control-6]: process has died [pid 26530, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/offboard_control --ros-args -r __node:=offboard_control -r __ns:=/px4_2'].
+1772633182.7193279 [ERROR] [offboard_control-14]: process has died [pid 26546, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/offboard_control --ros-args -r __node:=offboard_control -r __ns:=/px4_4'].
+1772633182.7239120 [ERROR] [offboard_control-10]: process has died [pid 26538, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/offboard_control --ros-args -r __node:=offboard_control -r __ns:=/px4_3'].
+1772633182.7314816 [ERROR] [auction_agent-3]: process has died [pid 26524, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/auction_agent --ros-args -r __node:=auction_agent -r __ns:=/px4_1 --params-file /tmp/launch_params_prmp4_p_'].
+1772633182.7376549 [ERROR] [auction_agent-7]: process has died [pid 26532, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/auction_agent --ros-args -r __node:=auction_agent -r __ns:=/px4_2 --params-file /tmp/launch_params_hmp5_e1i'].
+1772633182.7425375 [ERROR] [auction_agent-15]: process has died [pid 26548, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/auction_agent --ros-args -r __node:=auction_agent -r __ns:=/px4_4 --params-file /tmp/launch_params_kqdudlg6'].

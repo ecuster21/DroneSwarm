@@ -1,0 +1,37 @@
+1772633058.9010088 [INFO] [launch]: All log files can be found below experiment_results/batch_20260304T140317Z/delay/ros_logs/2026-03-04-22-04-18-900054-DESKTOP-562LG77-24272
+1772633058.9011257 [INFO] [launch]: Default logging verbosity is set to INFO
+1772633058.9481735 [INFO] [task_board-1]: process started with pid [24273]
+1772633058.9483635 [INFO] [offboard_control-2]: process started with pid [24275]
+1772633058.9484301 [INFO] [auction_agent-3]: process started with pid [24277]
+1772633058.9484684 [INFO] [network_faults-4]: process started with pid [24279]
+1772633058.9485021 [INFO] [metrics_recorder-5]: process started with pid [24281]
+1772633058.9485338 [INFO] [offboard_control-6]: process started with pid [24283]
+1772633058.9485896 [INFO] [auction_agent-7]: process started with pid [24285]
+1772633058.9486227 [INFO] [network_faults-8]: process started with pid [24287]
+1772633058.9486527 [INFO] [metrics_recorder-9]: process started with pid [24289]
+1772633058.9486852 [INFO] [offboard_control-10]: process started with pid [24291]
+1772633058.9487264 [INFO] [auction_agent-11]: process started with pid [24293]
+1772633058.9487615 [INFO] [network_faults-12]: process started with pid [24295]
+1772633058.9487894 [INFO] [metrics_recorder-13]: process started with pid [24297]
+1772633058.9488158 [INFO] [offboard_control-14]: process started with pid [24299]
+1772633058.9488409 [INFO] [auction_agent-15]: process started with pid [24301]
+1772633058.9488888 [INFO] [network_faults-16]: process started with pid [24303]
+1772633058.9489357 [INFO] [metrics_recorder-17]: process started with pid [24305]
+1772633059.3331985 [ERROR] [network_faults-12]: process has died [pid 24295, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/network_faults --ros-args -r __node:=network_faults -r __ns:=/px4_3 --params-file /tmp/launch_params_ue03hesy'].
+1772633059.3351009 [ERROR] [network_faults-4]: process has died [pid 24279, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/network_faults --ros-args -r __node:=network_faults -r __ns:=/px4_1 --params-file /tmp/launch_params_wfabekrx'].
+1772633059.3361483 [ERROR] [metrics_recorder-5]: process has died [pid 24281, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/metrics_recorder --ros-args -r __node:=metrics_recorder -r __ns:=/px4_1 --params-file /tmp/launch_params_bw309acb'].
+1772633059.3363295 [ERROR] [network_faults-8]: process has died [pid 24287, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/network_faults --ros-args -r __node:=network_faults -r __ns:=/px4_2 --params-file /tmp/launch_params_txwq_su6'].
+1772633059.3464651 [ERROR] [network_faults-16]: process has died [pid 24303, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/network_faults --ros-args -r __node:=network_faults -r __ns:=/px4_4 --params-file /tmp/launch_params_4req3m3e'].
+1772633059.3469591 [ERROR] [task_board-1]: process has died [pid 24273, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/task_board --ros-args -r __node:=task_board --params-file /tmp/launch_params_0tmyzufb'].
+1772633059.3483887 [ERROR] [metrics_recorder-9]: process has died [pid 24289, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/metrics_recorder --ros-args -r __node:=metrics_recorder -r __ns:=/px4_2 --params-file /tmp/launch_params_3gstdkud'].
+1772633059.3489859 [ERROR] [metrics_recorder-17]: process has died [pid 24305, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/metrics_recorder --ros-args -r __node:=metrics_recorder -r __ns:=/px4_4 --params-file /tmp/launch_params_3pep0j11'].
+1772633059.3560922 [ERROR] [metrics_recorder-13]: process has died [pid 24297, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/metrics_recorder --ros-args -r __node:=metrics_recorder -r __ns:=/px4_3 --params-file /tmp/launch_params_4s1647gs'].
+1772633059.4450412 [ERROR] [offboard_control-6]: process has died [pid 24283, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/offboard_control --ros-args -r __node:=offboard_control -r __ns:=/px4_2'].
+1772633059.4581556 [ERROR] [offboard_control-10]: process has died [pid 24291, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/offboard_control --ros-args -r __node:=offboard_control -r __ns:=/px4_3'].
+1772633059.4583168 [ERROR] [offboard_control-2]: process has died [pid 24275, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/offboard_control --ros-args -r __node:=offboard_control -r __ns:=/px4_1'].
+1772633059.4710743 [ERROR] [auction_agent-3]: process has died [pid 24277, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/auction_agent --ros-args -r __node:=auction_agent -r __ns:=/px4_1 --params-file /tmp/launch_params_urz_xbif'].
+1772633059.4712169 [ERROR] [offboard_control-14]: process has died [pid 24299, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/offboard_control --ros-args -r __node:=offboard_control -r __ns:=/px4_4'].
+1772633059.4794784 [ERROR] [auction_agent-7]: process has died [pid 24285, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/auction_agent --ros-args -r __node:=auction_agent -r __ns:=/px4_2 --params-file /tmp/launch_params_7hr7ggne'].
+1772633059.4797866 [ERROR] [auction_agent-11]: process has died [pid 24293, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/auction_agent --ros-args -r __node:=auction_agent -r __ns:=/px4_3 --params-file /tmp/launch_params_2evdsrhr'].
+1772633120.7327657 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1772633120.7334781 [ERROR] [auction_agent-15]: process has died [pid 24301, exit code 1, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/auction_agent --ros-args -r __node:=auction_agent -r __ns:=/px4_4 --params-file /tmp/launch_params_m88f4eff'].

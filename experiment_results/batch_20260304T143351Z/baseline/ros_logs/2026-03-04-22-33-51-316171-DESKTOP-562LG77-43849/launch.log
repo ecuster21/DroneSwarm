@@ -1,0 +1,42 @@
+1772634831.3174577 [INFO] [launch]: All log files can be found below experiment_results/batch_20260304T143351Z/baseline/ros_logs/2026-03-04-22-33-51-316171-DESKTOP-562LG77-43849
+1772634831.3176167 [INFO] [launch]: Default logging verbosity is set to INFO
+1772634831.3658292 [INFO] [task_board-1]: process started with pid [43850]
+1772634831.3661327 [INFO] [offboard_control-2]: process started with pid [43852]
+1772634831.3662050 [INFO] [auction_agent-3]: process started with pid [43854]
+1772634831.3662567 [INFO] [metrics_recorder-4]: process started with pid [43856]
+1772634831.3663051 [INFO] [offboard_control-5]: process started with pid [43858]
+1772634831.3664167 [INFO] [auction_agent-6]: process started with pid [43860]
+1772634831.3665061 [INFO] [metrics_recorder-7]: process started with pid [43862]
+1772634831.3666146 [INFO] [offboard_control-8]: process started with pid [43864]
+1772634831.3666856 [INFO] [auction_agent-9]: process started with pid [43866]
+1772634831.3667285 [INFO] [metrics_recorder-10]: process started with pid [43868]
+1772634831.3672643 [INFO] [offboard_control-11]: process started with pid [43870]
+1772634831.3673105 [INFO] [auction_agent-12]: process started with pid [43872]
+1772634831.3673451 [INFO] [metrics_recorder-13]: process started with pid [43874]
+1772634893.2147200 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1772634893.2171161 [INFO] [metrics_recorder-13]: sending signal 'SIGINT' to process[metrics_recorder-13]
+1772634893.2176616 [INFO] [auction_agent-12]: sending signal 'SIGINT' to process[auction_agent-12]
+1772634893.2181096 [INFO] [offboard_control-11]: sending signal 'SIGINT' to process[offboard_control-11]
+1772634893.2185366 [INFO] [metrics_recorder-10]: sending signal 'SIGINT' to process[metrics_recorder-10]
+1772634893.2190020 [INFO] [auction_agent-9]: sending signal 'SIGINT' to process[auction_agent-9]
+1772634893.2194431 [INFO] [offboard_control-8]: sending signal 'SIGINT' to process[offboard_control-8]
+1772634893.2199383 [INFO] [metrics_recorder-7]: sending signal 'SIGINT' to process[metrics_recorder-7]
+1772634893.2204051 [INFO] [auction_agent-6]: sending signal 'SIGINT' to process[auction_agent-6]
+1772634893.2208652 [INFO] [offboard_control-5]: sending signal 'SIGINT' to process[offboard_control-5]
+1772634893.2215722 [INFO] [metrics_recorder-4]: sending signal 'SIGINT' to process[metrics_recorder-4]
+1772634893.2228603 [INFO] [auction_agent-3]: sending signal 'SIGINT' to process[auction_agent-3]
+1772634893.2236133 [INFO] [offboard_control-2]: sending signal 'SIGINT' to process[offboard_control-2]
+1772634893.2252624 [INFO] [task_board-1]: sending signal 'SIGINT' to process[task_board-1]
+1772634893.2550573 [ERROR] [metrics_recorder-13]: process has died [pid 43874, exit code -2, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/metrics_recorder --ros-args -r __node:=metrics_recorder -r __ns:=/px4_4 --params-file /tmp/launch_params_i_q5egh7'].
+1772634893.2632177 [ERROR] [metrics_recorder-10]: process has died [pid 43868, exit code -2, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/metrics_recorder --ros-args -r __node:=metrics_recorder -r __ns:=/px4_3 --params-file /tmp/launch_params_wi87b9wc'].
+1772634893.2677908 [ERROR] [metrics_recorder-7]: process has died [pid 43862, exit code -2, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/metrics_recorder --ros-args -r __node:=metrics_recorder -r __ns:=/px4_2 --params-file /tmp/launch_params_aubiiuc0'].
+1772634893.2756112 [ERROR] [metrics_recorder-4]: process has died [pid 43856, exit code -2, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/metrics_recorder --ros-args -r __node:=metrics_recorder -r __ns:=/px4_1 --params-file /tmp/launch_params_b991w05s'].
+1772634893.2769105 [ERROR] [task_board-1]: process has died [pid 43850, exit code -2, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/task_board --ros-args -r __node:=task_board --params-file /tmp/launch_params_geyv2gxk'].
+1772634893.3168292 [ERROR] [offboard_control-5]: process has died [pid 43858, exit code -2, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/offboard_control --ros-args -r __node:=offboard_control -r __ns:=/px4_2'].
+1772634893.3172276 [ERROR] [offboard_control-11]: process has died [pid 43870, exit code -2, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/offboard_control --ros-args -r __node:=offboard_control -r __ns:=/px4_4'].
+1772634893.3176610 [ERROR] [offboard_control-8]: process has died [pid 43864, exit code -2, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/offboard_control --ros-args -r __node:=offboard_control -r __ns:=/px4_3'].
+1772634893.3210273 [ERROR] [auction_agent-6]: process has died [pid 43860, exit code -2, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/auction_agent --ros-args -r __node:=auction_agent -r __ns:=/px4_2 --params-file /tmp/launch_params_salcmfqe'].
+1772634893.3211668 [ERROR] [auction_agent-9]: process has died [pid 43866, exit code -2, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/auction_agent --ros-args -r __node:=auction_agent -r __ns:=/px4_3 --params-file /tmp/launch_params_13czcokn'].
+1772634893.3212130 [ERROR] [auction_agent-12]: process has died [pid 43872, exit code -2, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/auction_agent --ros-args -r __node:=auction_agent -r __ns:=/px4_4 --params-file /tmp/launch_params_ro47ze8c'].
+1772634893.3216147 [ERROR] [offboard_control-2]: process has died [pid 43852, exit code -2, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/offboard_control --ros-args -r __node:=offboard_control -r __ns:=/px4_1'].
+1772634893.3218899 [ERROR] [auction_agent-3]: process has died [pid 43854, exit code -2, cmd '/home/jie/px4_ros_com_ws/install/offboard_py/lib/offboard_py/auction_agent --ros-args -r __node:=auction_agent -r __ns:=/px4_1 --params-file /tmp/launch_params_wd8gn_v0'].

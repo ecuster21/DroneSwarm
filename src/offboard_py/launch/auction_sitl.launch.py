@@ -20,6 +20,7 @@ def _launch_setup(context, *args, **kwargs):
     del kwargs
 
     uav_count = max(1, int(LaunchConfiguration('uav_count').perform(context)))
+    namespace_prefix = LaunchConfiguration('namespace_prefix').perform(context)
     base_update_period = LaunchConfiguration('update_period_sec').perform(context)
     drop_probability = LaunchConfiguration('drop_probability').perform(context)
     delay_mean_ms = LaunchConfiguration('delay_mean_ms').perform(context)
@@ -36,7 +37,7 @@ def _launch_setup(context, *args, **kwargs):
         LaunchConfiguration('use_fault_injection').perform(context)
     )
 
-    namespaces = [f'uav{i + 1}' for i in range(uav_count)]
+    namespaces = [f'{namespace_prefix}{i + 1}' for i in range(uav_count)]
     nodes = [
         Node(
             package='offboard_py',
@@ -131,6 +132,7 @@ def generate_launch_description():
     """Generate the launch description for the auction SITL stack."""
     return LaunchDescription([
         DeclareLaunchArgument('uav_count', default_value='2'),
+        DeclareLaunchArgument('namespace_prefix', default_value='px4_'),
         DeclareLaunchArgument('update_period_sec', default_value='0.2'),
         DeclareLaunchArgument('use_fault_injection', default_value='true'),
         DeclareLaunchArgument('drop_probability', default_value='0.0'),

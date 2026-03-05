@@ -10,6 +10,10 @@ from typing import Optional
 from geometry_msgs.msg import Pose2D
 import rclpy
 from rclpy.node import Node
+from rclpy.qos import DurabilityPolicy
+from rclpy.qos import HistoryPolicy
+from rclpy.qos import QoSProfile
+from rclpy.qos import ReliabilityPolicy
 from std_msgs.msg import String
 
 from px4_msgs.msg import VehicleLocalPosition
@@ -85,7 +89,7 @@ class AuctionAgent(Node):
             self.declare_parameter('switch_hysteresis', 0.25).value
         )
         self.peer_namespaces = _coerce_namespace_list(
-            self.declare_parameter('peer_namespaces', []).value
+            self.declare_parameter('peer_namespaces', ['']).value
         )
 
         self.core = AsyncAuctionCore(
@@ -104,6 +108,15 @@ class AuctionAgent(Node):
         self.tasks: List[Task] = []
         self.vehicle_position: Optional[VehicleLocalPosition] = None
         self.vehicle_status: Optional[VehicleStatus] = None
+        self._waiting_for_position_logged = False
+        self._position_received_logged = False
+
+        px4_qos = QoSProfile(
+            reliability=ReliabilityPolicy.BEST_EFFORT,
+            durability=DurabilityPolicy.TRANSIENT_LOCAL,
+            history=HistoryPolicy.KEEP_LAST,
+            depth=1,
+        )
 
         self.state_publisher = self.create_publisher(String, 'auction/local_state', 10)
         self.bid_publisher = self.create_publisher(
@@ -118,13 +131,13 @@ class AuctionAgent(Node):
             VehicleLocalPosition,
             'fmu/out/vehicle_local_position',
             self._vehicle_local_position_callback,
-            10,
+            px4_qos,
         )
         self.create_subscription(
             VehicleStatus,
             'fmu/out/vehicle_status',
             self._vehicle_status_callback,
-            10,
+            px4_qos,
         )
         self.create_subscription(
             String,
@@ -154,6 +167,11 @@ class AuctionAgent(Node):
     def _vehicle_local_position_callback(self, msg: VehicleLocalPosition) -> None:
         """Store the latest local position from PX4."""
         self.vehicle_position = msg
+        if not self._position_received_logged:
+            self._position_received_logged = True
+            self.get_logger().info(
+                'Received first PX4 local position sample'
+            )
 
     def _vehicle_status_callback(self, msg: VehicleStatus) -> None:
         """Store the latest vehicle status from PX4."""
@@ -178,6 +196,11 @@ class AuctionAgent(Node):
     def _timer_callback(self) -> None:
         """Publish the current local state, bid, and mission setpoint."""
         if self.vehicle_position is None:
+            if not self._waiting_for_position_logged:
+                self._waiting_for_position_logged = True
+                self.get_logger().warning(
+                    'Waiting for PX4 local position on fmu/out/vehicle_local_position'
+                )
             return
 
         now_ns = self.get_clock().now().nanoseconds

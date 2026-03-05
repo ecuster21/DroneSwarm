@@ -1,0 +1,16 @@
+{
+  "parameters": {
+    "alpha_switch": 0.75,
+    "beta_stale": 1.0,
+    "delay_jitter_ms": 50.0,
+    "delay_mean_ms": 200.0,
+    "drop_probability": 0.2,
+    "lambda_cost": 1.0,
+    "uav_count": 4,
+    "update_period_sec": 0.2,
+    "use_fault_injection": true
+  },
+  "profile_name": "stress",
+  "recorded_at_utc": "2026-03-04T14:06:21.958564Z",
+  "run_label": ""
+}

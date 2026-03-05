@@ -1,0 +1,581 @@
+[INFO] [1772634831.827159733] [px4_3.offboard_control]: Starting offboard controller for /px4_3 with target=(0.00, 0.00, -5.00) yaw=-3.14
+[INFO] [1772634832.837810429] [px4_3.offboard_control]: Using discovered PX4 target ids system=4 component=1
+[INFO] [1772634833.810169806] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.95
+[INFO] [1772634833.813139561] [px4_3.offboard_control]: Target reached within 0.84 m
+[INFO] [1772634833.813454020] [px4_3.offboard_control]: Switch to Offboard mode command send
+[INFO] [1772634833.813663268] [px4_3.offboard_control]: Arm command send
+[INFO] [1772634834.010317412] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.95
+[INFO] [1772634834.012903156] [px4_3.offboard_control]: Target reached within 0.84 m
+[INFO] [1772634834.210334957] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.95
+[INFO] [1772634834.212974370] [px4_3.offboard_control]: Target reached within 0.84 m
+[INFO] [1772634834.411006766] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.95
+[INFO] [1772634834.413279183] [px4_3.offboard_control]: Target reached within 0.84 m
+[INFO] [1772634834.610590352] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.95
+[INFO] [1772634834.613060522] [px4_3.offboard_control]: Target reached within 0.83 m
+[INFO] [1772634834.810555307] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.95
+[INFO] [1772634834.813194404] [px4_3.offboard_control]: Target reached within 0.83 m
+[INFO] [1772634835.010408122] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.95
+[INFO] [1772634835.012991231] [px4_3.offboard_control]: Target reached within 0.84 m
+[INFO] [1772634835.210415892] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.95
+[INFO] [1772634835.213110310] [px4_3.offboard_control]: Target reached within 0.84 m
+[INFO] [1772634835.410614497] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.95
+[INFO] [1772634835.412968655] [px4_3.offboard_control]: Target reached within 0.84 m
+[INFO] [1772634835.610287996] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.95
+[INFO] [1772634835.613084199] [px4_3.offboard_control]: Target reached within 0.84 m
+[INFO] [1772634835.810665610] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.95
+[INFO] [1772634835.812998852] [px4_3.offboard_control]: Target reached within 0.84 m
+[INFO] [1772634836.010454979] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.95
+[INFO] [1772634836.012975450] [px4_3.offboard_control]: Target reached within 0.84 m
+[INFO] [1772634836.210585224] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.95
+[INFO] [1772634836.213121204] [px4_3.offboard_control]: Target reached within 0.84 m
+[INFO] [1772634836.410942458] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.95
+[INFO] [1772634836.413060100] [px4_3.offboard_control]: Target reached within 0.84 m
+[INFO] [1772634836.610829048] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.95
+[INFO] [1772634836.612976351] [px4_3.offboard_control]: Target reached within 0.84 m
+[INFO] [1772634836.810270817] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.94
+[INFO] [1772634836.813015294] [px4_3.offboard_control]: Target reached within 0.85 m
+[INFO] [1772634837.010173164] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.92
+[INFO] [1772634837.013171575] [px4_3.offboard_control]: Target reached within 0.85 m
+[INFO] [1772634837.210106638] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.86
+[INFO] [1772634837.212886379] [px4_3.offboard_control]: Target reached within 0.82 m
+[INFO] [1772634837.410170221] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.79
+[INFO] [1772634837.412968566] [px4_3.offboard_control]: Target reached within 0.71 m
+[INFO] [1772634837.610165594] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.78
+[INFO] [1772634837.613164063] [px4_3.offboard_control]: Target reached within 0.54 m
+[INFO] [1772634837.810568364] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.87
+[INFO] [1772634837.812931505] [px4_3.offboard_control]: Target reached within 0.37 m
+[INFO] [1772634838.010092277] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-3.12
+[INFO] [1772634838.012929661] [px4_3.offboard_control]: Target reached within 0.25 m
+[INFO] [1772634838.210348273] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.70
+[INFO] [1772634838.213011585] [px4_3.offboard_control]: Target reached within 0.20 m
+[INFO] [1772634838.410720818] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.25
+[INFO] [1772634838.412891022] [px4_3.offboard_control]: Target reached within 0.21 m
+[INFO] [1772634838.610247495] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.99
+[INFO] [1772634838.613295063] [px4_3.offboard_control]: Target reached within 0.24 m
+[INFO] [1772634838.810338758] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.85
+[INFO] [1772634838.813101537] [px4_3.offboard_control]: Target reached within 0.29 m
+[INFO] [1772634839.010926078] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.76
+[INFO] [1772634839.013274453] [px4_3.offboard_control]: Target reached within 0.32 m
+[INFO] [1772634839.210136732] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.68
+[INFO] [1772634839.213117966] [px4_3.offboard_control]: Target reached within 0.35 m
+[INFO] [1772634839.410492573] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.62
+[INFO] [1772634839.413367531] [px4_3.offboard_control]: Target reached within 0.36 m
+[INFO] [1772634839.610709058] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.56
+[INFO] [1772634839.613025683] [px4_3.offboard_control]: Target reached within 0.37 m
+[INFO] [1772634839.810381637] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.51
+[INFO] [1772634839.813104883] [px4_3.offboard_control]: Target reached within 0.37 m
+[INFO] [1772634840.010353510] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.45
+[INFO] [1772634840.013208199] [px4_3.offboard_control]: Target reached within 0.36 m
+[INFO] [1772634840.210449044] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.39
+[INFO] [1772634840.213261980] [px4_3.offboard_control]: Target reached within 0.34 m
+[INFO] [1772634840.410153378] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.32
+[INFO] [1772634840.413049760] [px4_3.offboard_control]: Target reached within 0.32 m
+[INFO] [1772634840.610441578] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.24
+[INFO] [1772634840.613018786] [px4_3.offboard_control]: Target reached within 0.29 m
+[INFO] [1772634840.810082698] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.17
+[INFO] [1772634840.813002423] [px4_3.offboard_control]: Target reached within 0.26 m
+[INFO] [1772634841.010203771] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.10
+[INFO] [1772634841.013369954] [px4_3.offboard_control]: Target reached within 0.24 m
+[INFO] [1772634841.210325692] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.03
+[INFO] [1772634841.213144291] [px4_3.offboard_control]: Target reached within 0.21 m
+[INFO] [1772634841.410101118] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.95
+[INFO] [1772634841.413219711] [px4_3.offboard_control]: Target reached within 0.19 m
+[INFO] [1772634841.610257308] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.85
+[INFO] [1772634841.612971260] [px4_3.offboard_control]: Target reached within 0.16 m
+[INFO] [1772634841.810438499] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.73
+[INFO] [1772634841.813025221] [px4_3.offboard_control]: Target reached within 0.13 m
+[INFO] [1772634842.010687241] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.58
+[INFO] [1772634842.012946177] [px4_3.offboard_control]: Target reached within 0.11 m
+[INFO] [1772634842.210591286] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.41
+[INFO] [1772634842.212928296] [px4_3.offboard_control]: Target reached within 0.09 m
+[INFO] [1772634842.410355209] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.16
+[INFO] [1772634842.413133985] [px4_3.offboard_control]: Target reached within 0.07 m
+[INFO] [1772634842.610561016] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.18
+[INFO] [1772634842.613079397] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634842.810499325] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.56
+[INFO] [1772634842.813087552] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634843.010454803] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.96
+[INFO] [1772634843.013037347] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634843.210271216] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.39
+[INFO] [1772634843.212997416] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634843.411164483] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.70
+[INFO] [1772634843.413012880] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634843.610179010] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.03
+[INFO] [1772634843.613002659] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634843.810476140] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.23
+[INFO] [1772634843.813183566] [px4_3.offboard_control]: Target reached within 0.08 m
+[INFO] [1772634844.010107640] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.43
+[INFO] [1772634844.012990640] [px4_3.offboard_control]: Target reached within 0.10 m
+[INFO] [1772634844.210669677] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.54
+[INFO] [1772634844.213039307] [px4_3.offboard_control]: Target reached within 0.12 m
+[INFO] [1772634844.410163443] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.65
+[INFO] [1772634844.412943279] [px4_3.offboard_control]: Target reached within 0.14 m
+[INFO] [1772634844.610042013] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.73
+[INFO] [1772634844.613073007] [px4_3.offboard_control]: Target reached within 0.16 m
+[INFO] [1772634844.810209430] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.84
+[INFO] [1772634844.812956152] [px4_3.offboard_control]: Target reached within 0.17 m
+[INFO] [1772634845.010249838] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.93
+[INFO] [1772634845.013122675] [px4_3.offboard_control]: Target reached within 0.18 m
+[INFO] [1772634845.210192379] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=3.02
+[INFO] [1772634845.213062915] [px4_3.offboard_control]: Target reached within 0.19 m
+[INFO] [1772634845.410484404] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=3.10
+[INFO] [1772634845.413344279] [px4_3.offboard_control]: Target reached within 0.19 m
+[INFO] [1772634845.610116950] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-3.08
+[INFO] [1772634845.613006310] [px4_3.offboard_control]: Target reached within 0.19 m
+[INFO] [1772634845.810104097] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.99
+[INFO] [1772634845.813062514] [px4_3.offboard_control]: Target reached within 0.19 m
+[INFO] [1772634846.010291624] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.87
+[INFO] [1772634846.013207301] [px4_3.offboard_control]: Target reached within 0.19 m
+[INFO] [1772634846.211197882] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.76
+[INFO] [1772634846.213696563] [px4_3.offboard_control]: Target reached within 0.19 m
+[INFO] [1772634846.410871334] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.65
+[INFO] [1772634846.413020379] [px4_3.offboard_control]: Target reached within 0.19 m
+[INFO] [1772634846.610561946] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.55
+[INFO] [1772634846.613037569] [px4_3.offboard_control]: Target reached within 0.19 m
+[INFO] [1772634846.810668957] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.44
+[INFO] [1772634846.813141981] [px4_3.offboard_control]: Target reached within 0.18 m
+[INFO] [1772634847.011385645] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.35
+[INFO] [1772634847.013053153] [px4_3.offboard_control]: Target reached within 0.17 m
+[INFO] [1772634847.210485983] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.24
+[INFO] [1772634847.213008184] [px4_3.offboard_control]: Target reached within 0.17 m
+[INFO] [1772634847.410580278] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.14
+[INFO] [1772634847.413078851] [px4_3.offboard_control]: Target reached within 0.17 m
+[INFO] [1772634847.610556664] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.04
+[INFO] [1772634847.613011948] [px4_3.offboard_control]: Target reached within 0.17 m
+[INFO] [1772634847.810929936] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.94
+[INFO] [1772634847.813038436] [px4_3.offboard_control]: Target reached within 0.15 m
+[INFO] [1772634848.010544992] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.81
+[INFO] [1772634848.013092330] [px4_3.offboard_control]: Target reached within 0.15 m
+[INFO] [1772634848.210788378] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.68
+[INFO] [1772634848.213013697] [px4_3.offboard_control]: Target reached within 0.14 m
+[INFO] [1772634848.410633240] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.52
+[INFO] [1772634848.413060306] [px4_3.offboard_control]: Target reached within 0.13 m
+[INFO] [1772634848.610576916] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.36
+[INFO] [1772634848.613014942] [px4_3.offboard_control]: Target reached within 0.11 m
+[INFO] [1772634848.810698675] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.18
+[INFO] [1772634848.813140601] [px4_3.offboard_control]: Target reached within 0.10 m
+[INFO] [1772634849.010766281] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.99
+[INFO] [1772634849.013062850] [px4_3.offboard_control]: Target reached within 0.09 m
+[INFO] [1772634849.210281897] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.82
+[INFO] [1772634849.213012195] [px4_3.offboard_control]: Target reached within 0.09 m
+[INFO] [1772634849.410365884] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.65
+[INFO] [1772634849.412972257] [px4_3.offboard_control]: Target reached within 0.09 m
+[INFO] [1772634849.610481490] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.47
+[INFO] [1772634849.612945172] [px4_3.offboard_control]: Target reached within 0.08 m
+[INFO] [1772634849.810888268] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.27
+[INFO] [1772634849.813144303] [px4_3.offboard_control]: Target reached within 0.08 m
+[INFO] [1772634850.010881538] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.06
+[INFO] [1772634850.012917032] [px4_3.offboard_control]: Target reached within 0.07 m
+[INFO] [1772634850.210795462] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.13
+[INFO] [1772634850.212976467] [px4_3.offboard_control]: Target reached within 0.07 m
+[INFO] [1772634850.410695547] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.32
+[INFO] [1772634850.413092629] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634850.610509643] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.51
+[INFO] [1772634850.612928187] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634850.810514187] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.66
+[INFO] [1772634850.812976424] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634851.010252843] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.77
+[INFO] [1772634851.013157358] [px4_3.offboard_control]: Target reached within 0.07 m
+[INFO] [1772634851.210368342] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.86
+[INFO] [1772634851.212933728] [px4_3.offboard_control]: Target reached within 0.07 m
+[INFO] [1772634851.410426960] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.00
+[INFO] [1772634851.412948959] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634851.610165355] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.18
+[INFO] [1772634851.612919538] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634851.810249027] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.34
+[INFO] [1772634851.812967429] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634852.010828009] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.48
+[INFO] [1772634852.013054354] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634852.210299551] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.62
+[INFO] [1772634852.212984001] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634852.410427800] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.77
+[INFO] [1772634852.412932351] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634852.610268123] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.97
+[INFO] [1772634852.613259702] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634852.810298077] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.14
+[INFO] [1772634852.813262414] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634853.010300085] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.35
+[INFO] [1772634853.013071853] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634853.210412416] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.55
+[INFO] [1772634853.213027833] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634853.410078833] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.91
+[INFO] [1772634853.413165776] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634853.610237165] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-3.11
+[INFO] [1772634853.612865671] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634853.810886264] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.83
+[INFO] [1772634853.813004775] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634854.010501414] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.61
+[INFO] [1772634854.013088690] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634854.210931888] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.43
+[INFO] [1772634854.212997462] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634854.410451422] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.28
+[INFO] [1772634854.413041256] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634854.610627385] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.15
+[INFO] [1772634854.613004369] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634854.810309486] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.05
+[INFO] [1772634854.813051575] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634855.010368132] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.94
+[INFO] [1772634855.013114768] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634855.210599329] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.84
+[INFO] [1772634855.213105104] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634855.410356887] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.71
+[INFO] [1772634855.413048372] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634855.610143908] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.56
+[INFO] [1772634855.613074792] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634855.810579226] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.40
+[INFO] [1772634855.813231808] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634856.010179183] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.23
+[INFO] [1772634856.012974014] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634856.210272693] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.08
+[INFO] [1772634856.213103297] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634856.410285366] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.96
+[INFO] [1772634856.412951056] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634856.610512202] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.83
+[INFO] [1772634856.613065586] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634856.810193072] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.68
+[INFO] [1772634856.813019573] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634857.010406082] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.43
+[INFO] [1772634857.013349360] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634857.210682012] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.16
+[INFO] [1772634857.213036123] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634857.410139294] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.08
+[INFO] [1772634857.412979670] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634857.610411118] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.29
+[INFO] [1772634857.612964019] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634857.810268372] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.60
+[INFO] [1772634857.813140082] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634858.010463049] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.09
+[INFO] [1772634858.012985008] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634858.210319367] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.37
+[INFO] [1772634858.212944350] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634858.410176498] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.58
+[INFO] [1772634858.412999671] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634858.610244550] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.77
+[INFO] [1772634858.613079912] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634858.810399987] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.97
+[INFO] [1772634858.813056871] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634859.010132795] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.16
+[INFO] [1772634859.013140646] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634859.210036278] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.35
+[INFO] [1772634859.212948453] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634859.410220854] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.51
+[INFO] [1772634859.413197953] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634859.610129078] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.68
+[INFO] [1772634859.613129879] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634859.810132268] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.86
+[INFO] [1772634859.813145909] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634860.010143582] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=3.04
+[INFO] [1772634860.012921263] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634860.210153268] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-3.06
+[INFO] [1772634860.213224309] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634860.410137662] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.89
+[INFO] [1772634860.412954213] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634860.610245297] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.74
+[INFO] [1772634860.613203299] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634860.810250400] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.58
+[INFO] [1772634860.812974780] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634861.010197418] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.42
+[INFO] [1772634861.013069100] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634861.210134830] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.21
+[INFO] [1772634861.213074990] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634861.410264202] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.01
+[INFO] [1772634861.413062765] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634861.610017898] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.86
+[INFO] [1772634861.612963321] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634861.810562554] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.72
+[INFO] [1772634861.813097243] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634862.010101243] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.54
+[INFO] [1772634862.012921020] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634862.210796814] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.33
+[INFO] [1772634862.213100182] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634862.410786900] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.18
+[INFO] [1772634862.412982062] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634862.610661350] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.04
+[INFO] [1772634862.613200765] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634862.810607977] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.89
+[INFO] [1772634862.813022798] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634863.010370651] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.66
+[INFO] [1772634863.013001734] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634863.210138025] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.25
+[INFO] [1772634863.213160148] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634863.410603849] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.20
+[INFO] [1772634863.413230298] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634863.610457084] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.70
+[INFO] [1772634863.613178795] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634863.810440852] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.32
+[INFO] [1772634863.813177249] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634864.010459818] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.82
+[INFO] [1772634864.012979935] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634864.210592943] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.13
+[INFO] [1772634864.212994136] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634864.410256598] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.45
+[INFO] [1772634864.412975482] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634864.610904983] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.68
+[INFO] [1772634864.613096791] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634864.810758847] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.81
+[INFO] [1772634864.813040244] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634865.010767390] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.92
+[INFO] [1772634865.013075846] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634865.210261663] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.98
+[INFO] [1772634865.212938979] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634865.410378829] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=3.02
+[INFO] [1772634865.412989203] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634866.451575249] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=3.02
+[INFO] [1772634866.512957765] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634866.610390992] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.84
+[INFO] [1772634866.613368230] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634866.810453781] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.73
+[INFO] [1772634866.813179480] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634867.010132178] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.77
+[INFO] [1772634867.012941457] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634867.210300242] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.72
+[INFO] [1772634867.213044182] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634867.410528399] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.23
+[INFO] [1772634867.413138165] [px4_3.offboard_control]: Target reached within 0.01 m
+[INFO] [1772634867.610205934] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.37
+[INFO] [1772634867.613011518] [px4_3.offboard_control]: Target reached within 0.01 m
+[INFO] [1772634867.810331510] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.12
+[INFO] [1772634867.812931799] [px4_3.offboard_control]: Target reached within 0.01 m
+[INFO] [1772634868.010712341] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.87
+[INFO] [1772634868.013004054] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634868.210629375] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.16
+[INFO] [1772634868.213017552] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634868.410101260] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.19
+[INFO] [1772634868.413167882] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634868.610313418] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.26
+[INFO] [1772634868.612909349] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634868.810507857] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.32
+[INFO] [1772634868.812945436] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634869.010106739] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.44
+[INFO] [1772634869.013071736] [px4_3.offboard_control]: Target reached within 0.07 m
+[INFO] [1772634869.210031988] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.55
+[INFO] [1772634869.212970766] [px4_3.offboard_control]: Target reached within 0.08 m
+[INFO] [1772634869.410125426] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.63
+[INFO] [1772634869.412959292] [px4_3.offboard_control]: Target reached within 0.08 m
+[INFO] [1772634869.610121211] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.66
+[INFO] [1772634869.613050607] [px4_3.offboard_control]: Target reached within 0.08 m
+[INFO] [1772634869.810126472] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.67
+[INFO] [1772634869.812882802] [px4_3.offboard_control]: Target reached within 0.08 m
+[INFO] [1772634870.010471853] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.73
+[INFO] [1772634870.013118330] [px4_3.offboard_control]: Target reached within 0.07 m
+[INFO] [1772634870.210137328] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.80
+[INFO] [1772634870.212844292] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634870.410131885] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.87
+[INFO] [1772634870.412974475] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634870.610284707] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.96
+[INFO] [1772634870.612982957] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634870.810154343] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.95
+[INFO] [1772634870.813054432] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634871.010440523] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.97
+[INFO] [1772634871.013464678] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634871.210834204] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.39
+[INFO] [1772634871.213022773] [px4_3.offboard_control]: Target reached within 0.01 m
+[INFO] [1772634871.410202416] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.32
+[INFO] [1772634871.412958238] [px4_3.offboard_control]: Target reached within 0.01 m
+[INFO] [1772634871.610620737] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.71
+[INFO] [1772634871.612992356] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634871.810446353] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.10
+[INFO] [1772634871.813011543] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634872.010297767] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.07
+[INFO] [1772634872.012983888] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634872.210526587] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.98
+[INFO] [1772634872.212995360] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634872.410525957] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.81
+[INFO] [1772634872.413001595] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634872.610671049] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.89
+[INFO] [1772634872.612962800] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634872.810522858] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.95
+[INFO] [1772634872.813028213] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634873.010694944] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.91
+[INFO] [1772634873.012938839] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634873.210299354] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.79
+[INFO] [1772634873.212978591] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634873.410411168] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.67
+[INFO] [1772634873.412911708] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634873.610592518] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.62
+[INFO] [1772634873.613307691] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634873.810485428] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.57
+[INFO] [1772634873.813093298] [px4_3.offboard_control]: Target reached within 0.07 m
+[INFO] [1772634874.010383634] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.49
+[INFO] [1772634874.012920456] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634874.210654962] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.36
+[INFO] [1772634874.213054639] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634874.410160067] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.36
+[INFO] [1772634874.412913348] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634874.610434489] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.32
+[INFO] [1772634874.612947160] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634874.810789046] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.33
+[INFO] [1772634874.813100911] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634875.010501182] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.19
+[INFO] [1772634875.012989407] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634875.210392189] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.74
+[INFO] [1772634875.212908405] [px4_3.offboard_control]: Target reached within 0.01 m
+[INFO] [1772634875.410359890] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.71
+[INFO] [1772634875.412951040] [px4_3.offboard_control]: Target reached within 0.01 m
+[INFO] [1772634875.610326281] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.82
+[INFO] [1772634875.613141302] [px4_3.offboard_control]: Target reached within 0.01 m
+[INFO] [1772634875.810206261] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.83
+[INFO] [1772634875.812977270] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634876.010166967] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.82
+[INFO] [1772634876.013048014] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634876.210241749] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=3.10
+[INFO] [1772634876.212929315] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634876.410688874] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-3.08
+[INFO] [1772634876.412916072] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634876.610660610] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-3.12
+[INFO] [1772634876.613020783] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634876.810310135] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=3.05
+[INFO] [1772634876.812941626] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634877.010376977] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=3.02
+[INFO] [1772634877.012939371] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634877.210345144] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=3.05
+[INFO] [1772634877.213017702] [px4_3.offboard_control]: Target reached within 0.07 m
+[INFO] [1772634877.410147386] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=3.11
+[INFO] [1772634877.412853820] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634877.610302472] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=3.13
+[INFO] [1772634877.613082348] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634877.810300249] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-3.13
+[INFO] [1772634877.813003333] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634878.010192092] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=3.13
+[INFO] [1772634878.013066888] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634878.210341445] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-3.11
+[INFO] [1772634878.212942506] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634878.410223961] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=3.13
+[INFO] [1772634878.413124373] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634878.610418734] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-3.13
+[INFO] [1772634878.613053475] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634878.810671452] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=3.03
+[INFO] [1772634878.813060673] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634879.010193168] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.98
+[INFO] [1772634879.013112372] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634879.210577443] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.37
+[INFO] [1772634879.213062029] [px4_3.offboard_control]: Target reached within 0.01 m
+[INFO] [1772634879.410210122] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.61
+[INFO] [1772634879.412928188] [px4_3.offboard_control]: Target reached within 0.01 m
+[INFO] [1772634879.610149218] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.06
+[INFO] [1772634879.613021090] [px4_3.offboard_control]: Target reached within 0.01 m
+[INFO] [1772634879.810326082] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.60
+[INFO] [1772634879.813136912] [px4_3.offboard_control]: Target reached within 0.01 m
+[INFO] [1772634880.010327309] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.72
+[INFO] [1772634880.012985036] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634880.210255712] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.72
+[INFO] [1772634880.212951145] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634880.410408097] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.56
+[INFO] [1772634880.413027015] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634880.610150398] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.52
+[INFO] [1772634880.612963836] [px4_3.offboard_control]: Target reached within 0.07 m
+[INFO] [1772634880.810197561] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.55
+[INFO] [1772634880.813004909] [px4_3.offboard_control]: Target reached within 0.08 m
+[INFO] [1772634881.010265114] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.57
+[INFO] [1772634881.013055493] [px4_3.offboard_control]: Target reached within 0.09 m
+[INFO] [1772634881.210153310] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.62
+[INFO] [1772634881.213038444] [px4_3.offboard_control]: Target reached within 0.09 m
+[INFO] [1772634881.410145807] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.65
+[INFO] [1772634881.413550817] [px4_3.offboard_control]: Target reached within 0.09 m
+[INFO] [1772634881.610292026] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.73
+[INFO] [1772634881.613143799] [px4_3.offboard_control]: Target reached within 0.09 m
+[INFO] [1772634881.810169519] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.80
+[INFO] [1772634881.813096360] [px4_3.offboard_control]: Target reached within 0.08 m
+[INFO] [1772634882.010203355] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.84
+[INFO] [1772634882.013067025] [px4_3.offboard_control]: Target reached within 0.08 m
+[INFO] [1772634882.210426255] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.88
+[INFO] [1772634882.213241386] [px4_3.offboard_control]: Target reached within 0.07 m
+[INFO] [1772634882.410095981] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.92
+[INFO] [1772634882.413060788] [px4_3.offboard_control]: Target reached within 0.07 m
+[INFO] [1772634882.610143418] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.99
+[INFO] [1772634882.613166631] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634882.810314324] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.09
+[INFO] [1772634882.813261050] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634883.010236575] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.18
+[INFO] [1772634883.012950082] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634883.210286006] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.32
+[INFO] [1772634883.212934428] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634883.410333861] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.50
+[INFO] [1772634883.412902677] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634883.610290216] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.65
+[INFO] [1772634883.613002076] [px4_3.offboard_control]: Target reached within 0.01 m
+[INFO] [1772634883.810205040] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.55
+[INFO] [1772634883.812969897] [px4_3.offboard_control]: Target reached within 0.00 m
+[INFO] [1772634884.010621152] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.79
+[INFO] [1772634884.012943292] [px4_3.offboard_control]: Target reached within 0.01 m
+[INFO] [1772634884.210305493] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.44
+[INFO] [1772634884.212964562] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634884.410344355] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.24
+[INFO] [1772634884.412951035] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634884.610339297] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.20
+[INFO] [1772634884.612909792] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634884.810323299] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.17
+[INFO] [1772634884.812938233] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634885.010121477] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-1.12
+[INFO] [1772634885.012949360] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634885.210143215] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.98
+[INFO] [1772634885.213065167] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634885.410356217] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.86
+[INFO] [1772634885.412958594] [px4_3.offboard_control]: Target reached within 0.07 m
+[INFO] [1772634885.610155507] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.74
+[INFO] [1772634885.612895565] [px4_3.offboard_control]: Target reached within 0.07 m
+[INFO] [1772634885.810330255] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.58
+[INFO] [1772634885.813022690] [px4_3.offboard_control]: Target reached within 0.07 m
+[INFO] [1772634886.010464943] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.48
+[INFO] [1772634886.013015998] [px4_3.offboard_control]: Target reached within 0.07 m
+[INFO] [1772634886.210842366] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.40
+[INFO] [1772634886.213037965] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634886.410507196] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.35
+[INFO] [1772634886.412980618] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634886.610133593] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.22
+[INFO] [1772634886.612968470] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634886.810511162] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.11
+[INFO] [1772634886.813058177] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634887.010427882] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.09
+[INFO] [1772634887.012969093] [px4_3.offboard_control]: Target reached within 0.05 m
+[INFO] [1772634887.210255357] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.26
+[INFO] [1772634887.212905451] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634887.410305624] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.51
+[INFO] [1772634887.412921469] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634887.610172671] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.75
+[INFO] [1772634887.612939772] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634887.810260037] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=0.99
+[INFO] [1772634887.813039679] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634888.010307118] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.22
+[INFO] [1772634888.013009972] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634888.210421143] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.57
+[INFO] [1772634888.213041585] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634888.410200625] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=1.87
+[INFO] [1772634888.413605778] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634888.610221040] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.15
+[INFO] [1772634888.612930883] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634888.810314755] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.31
+[INFO] [1772634888.812933626] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634889.010300892] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.34
+[INFO] [1772634889.012934960] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634889.210231842] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.40
+[INFO] [1772634889.212995074] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634889.410347297] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.49
+[INFO] [1772634889.413155039] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634889.610468086] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.60
+[INFO] [1772634889.612972024] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634889.810516810] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.80
+[INFO] [1772634889.813017385] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634890.010441554] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=2.98
+[INFO] [1772634890.013012745] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634890.210373903] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.92
+[INFO] [1772634890.212997709] [px4_3.offboard_control]: Target reached within 0.01 m
+[INFO] [1772634890.410155646] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-2.15
+[INFO] [1772634890.413165028] [px4_3.offboard_control]: Target reached within 0.01 m
+[INFO] [1772634890.610479007] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.83
+[INFO] [1772634890.612978558] [px4_3.offboard_control]: Target reached within 0.01 m
+[INFO] [1772634890.810398705] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.33
+[INFO] [1772634890.813021192] [px4_3.offboard_control]: Target reached within 0.02 m
+[INFO] [1772634891.010380136] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.37
+[INFO] [1772634891.013018986] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634891.210341661] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.48
+[INFO] [1772634891.212953326] [px4_3.offboard_control]: Target reached within 0.03 m
+[INFO] [1772634891.410534631] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.47
+[INFO] [1772634891.412971647] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634891.610122819] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.27
+[INFO] [1772634891.613020196] [px4_3.offboard_control]: Target reached within 0.04 m
+[INFO] [1772634891.810291249] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.17
+[INFO] [1772634891.812998518] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634892.010211988] [px4_3.offboard_control]: Received mission setpoint (-5.00, 0.00, -5.00) yaw=-0.17
+[INFO] [1772634892.012932805] [px4_3.offboard_control]: Target reached within 0.06 m
+[INFO] [1772634892.210500986] [px4_3.offboard_control]:

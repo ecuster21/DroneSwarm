@@ -34,6 +34,10 @@ setup(
             'experiment_logger = offboard_py.experiment_logger:main',
             'metrics_recorder = offboard_py.metrics_recorder:main',
             'experiment_summarizer = offboard_py.experiment_summary:main',
+            'experiment_reporter = offboard_py.experiment_report:main',
+            'experiment_batch_runner = offboard_py.experiment_batch:main',
+            'experiment_study_reporter = offboard_py.experiment_study:main',
+            'experiment_paper_assets = offboard_py.paper_assets:main',
         ],
     },
 )
